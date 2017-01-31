@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Ma super Calculatrice</title>
+        <link rel="stylesheet" href="./css/style.css">
+    </head>
+    <body>
+        <form>
+            <table>
+                <tr>
+                    <td colspan="4">
+                        <input type="text" name="" value="0" id="resultat"/>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="button" name="" value="1" id="1" onclick="afficher(this)"/>
+                    </td>
+                    <td>
+                        <input type="button" name="" value="2" id="2" onclick="afficher(this)"/>
+                    </td>
+                    <td>
+                        <input type="button" name="" value="3" id="3" onclick="afficher(this)"/>
+                    </td>
+                    <td>
+                        <input type="button" name="" value="+" id="additionner" onclick="afficher(this)"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="button" name="" value="4" id="4" onclick="afficher(this)"/>
+                    </td>
+                    <td>
+                        <input type="button" name="" value="5" id="5" onclick="afficher(this)"/>
+                    </td>
+                    <td>
+                        <input type="button" name="" value="6" id="6" onclick="afficher(this)"/>
+                    </td>
+                    <td>
+                        <input type="button" name="" value="-" id="soustraire" onclick="afficher(this)"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="button" name="" value="7" id="7" onclick="afficher(this)"/>
+                    </td>
+                    <td>
+                        <input type="button" name="" value="8" id="8" onclick="afficher(this)"/>
+                    </td>
+                    <td>
+                        <input type="button" name="" value="9" id="9" onclick="afficher(this)"/>
+                    </td>
+                    <td>
+                        <input type="button" name="" value="*" id="multiplier" onclick="afficher(this)"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="button" name="" value="0" id="0" onclick="afficher(this)"/>
+                    </td>
+                    <td colspan="2">
+                        <input type="button" name="" value="=" id="egal" onclick="afficher(this)"/>
+                    </td>
+                    <td>
+                        <input type="button" name="" value="/" id="diviser" onclick="afficher(this)"/>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </body>
+    <script type="text/javascript">
+
+    function afficher() {
+         input.value = document.getElementById("resultat").value
+         
+
+    }
+
+
+    </script>
+</html>
